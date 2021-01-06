@@ -58,7 +58,7 @@ class QuizViewController: UIViewController {
 
         // result １行分の作成
         let num = Int(answerNum)
-        resultLine = judgment + sp +
+        resultLine = sp + judgment + sp +
                     "[" + timeWk + "]" +
                     "(" + String(format: "%4d",num!) + ")" +
                      sp + leftNum.text! +
